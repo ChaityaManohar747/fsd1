@@ -1,0 +1,207 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+
+.nav{
+    font-family: Verdana, sans-serif;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(35, 103, 198, 0.6);
+    position:sticky;
+    height:70px;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 14px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+
+}
+
+.br{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    font-size: 1.2rem;
+
+}
+.br p{
+ padding: 8px 16px;
+ 
+}
+#p1{
+    margin-left:15px;
+    font-weight: bold;
+    padding-right: 1px;
+}
+
+.navbar a{
+    padding:8px 16px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:black;
+}
+
+.brimage{
+    position:relative;
+    height: 680px;
+    width:100%;
+}
+.brimage img{
+    position:absolute;
+    height:100%;
+    width: 100%;
+}
+
+.br1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom:310px;
+}
+.br1 p{
+    padding: 8px 16px;
+    font-size: 50px;
+    color:white;
+}
+
+#p2{
+    font-weight: bold;
+    padding: 12px;
+    background-color: black;
+}
+
+.Total_images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.row-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h{
+    position: absolute;
+    top:0px;
+    text-align: center;
+    
+    
+}
+.h h2{
+    color:white;
+    background-color: black;
+    padding:10px;
+    
+}
+.Project{
+    width: fit-content;
+    margin: 0px 30px;
+    position: relative;
+    bottom: 41px;
+}
+
+.imge{
+    position:relative;
+    padding:0px 10px;
+    
+}
+
+.imge img{
+   position:relative;
+    height:210px;
+    width: 345px;
+    z-index:-1;
+}
+
+#about{
+    margin-left: 30px;
+    padding: 30px 0px;
+}
+
+.para{
+    font-size: 1.2rem;
+    margin: 0px 30px;
+    font-weight: 500;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 15px;
+
+}
+.contact{
+    margin-left: 15px;
+}
+
+.contact img{
+    position: relative;
+    height:220px;
+    width: 345px;
+    filter: saturate(0.4);
+}
+
+.contact h3{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.des{
+    font-size: 20px;
+    opacity: 0.6;
+    padding: 10px 0px;
+}
+
+.info{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+
+.contact button{
+    padding: 10px 148px;
+    border: none;
+}
+
+.contact button:hover{
+    cursor: pointer;
+    background-color: rgba(235, 231, 222, 0.903);
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
